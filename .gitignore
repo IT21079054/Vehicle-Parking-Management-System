@@ -1,0 +1,37 @@
+# ── React Frontend ──
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# ── Spring Boot Backend ──
+backend/target/
+backend/.mvn/
+backend/*.log
+
+# ── Maven ──
+*.class
+*.jar
+*.war
+*.ear
+
+# ── IDE ──
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.suo
+*.user
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+desktop.ini
+.PRD.md
